@@ -1,3 +1,5 @@
+## this was run in a container
+
 import sys
 import os
 import numpy as np
