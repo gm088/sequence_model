@@ -6,4 +6,5 @@ sequence is one-hot encoded
 Uses Keras API for tensorflow
 2D convolutional NN
 
+uses integrated gradients method to estimate importances of nucleotides in sequence
 
