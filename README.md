@@ -1,10 +1,13 @@
+# 2-D convolutional neural network for deciphering sequence features discriminating two groups of sequences
 
+## Description
+Tensorflow
+Grid search for optimal paramters
+importance calculation using Integrated gradients
+Visualise importances
 
-The aim here was to provide primary sequence features that distinguished one group of sequences from the other. 
-Supervised; the sequences are binary classified.
-sequence is one-hot encoded
-Uses Keras API for tensorflow
-2D convolutional NN
+## Misc
 
-uses integrated gradients method to estimate importances of nucleotides in sequence
-
+* Based on [DeepRiPe](https://github.com/ohlerlab/DeepRiPe) 
+* Some functions taken from [Neural Network DNA demo](https://github.com/const-ae/Neural_Network_DNA_Demo)
+* Feature importances estimated using [Integrated Gradients method](https://arxiv.org/abs/1703.01365)
