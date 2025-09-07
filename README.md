@@ -1,10 +1,11 @@
 # 2-D convolutional neural network for deciphering sequence features discriminating two groups of sequences
 
 ## Description
-Tensorflow
-Grid search for optimal paramters
-importance calculation using Integrated gradients
-Visualise importances
+Given two groups of biological sequences that are subject to different regulatory regimes, what sets them apart? One possibility is the underlying DNA sequence.
+Here I use TensorFlow to creatae a 2D convolutional NN model using a set of sequences from each of the two classes. 
+Grid search is used to find optimal hyperparameters. 
+Lastly, the Integrated gradients method is used to extract feature importances (here, the importance of individual sequence positions).
+
 
 ## Misc
 
