@@ -1,4 +1,4 @@
-# convolutional neural network for deciphering sequence features discriminating two groups of sequences
+# Convolutional neural network for deciphering sequence features discriminating two groups of sequences
 
 ## Description
 Given two groups of biological sequences that are subject to different regulatory regimes, what sets them apart? One possibility is the underlying DNA sequence.
