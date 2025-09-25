@@ -2,9 +2,12 @@
 
 ## Description
 Given two groups of biological sequences that are subject to different regulatory regimes, what sets them apart? One possibility is the underlying DNA sequence.
-Here I use TensorFlow to create a 2D convolutional NN model using a set of sequences from each of the two classes. 
+Here I use TensorFlow to create a 2D convolutional NN model using a set of sequences from each of the two classes.  
+
 Grid search to find optimal hyperparameters. 
-Lastly, the Integrated gradients method is used to extract feature importances (here, the importance of individual sequence positions).
+Lastly, the Integrated gradients method is used to extract feature importances (here, the importance of individual sequence positions).  
+  
+The inputs to the model are DNA sequences from the two groups mentioned earlier, which have been one-hot encoded. The sequence extraction module has not been included in this repo as it may contain sensitive info.
 
 
 ## Misc
@@ -15,7 +18,7 @@ Lastly, the Integrated gradients method is used to extract feature importances (
 
 ## Model performance and example output - IG attribution of positions in one sequence
 
-![alt text](./example_output/ROC_curve.png)
+<img src="./example_output/ROC_curve.png" width="200" height="100">
 
 ![alt text](./example_output/example_output.png)
 
