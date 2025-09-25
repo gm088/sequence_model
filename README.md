@@ -18,7 +18,7 @@ The inputs to the model are DNA sequences from the two groups mentioned earlier,
 
 ## Model performance and example output - IG attribution of positions in one sequence
 
-<img src="./example_output/ROC_curve.png" width="400" height="400">
+<img src="./example_output/ROC_curve.png" width="300" height="300">
 
 ![alt text](./example_output/example_output.png)
 
