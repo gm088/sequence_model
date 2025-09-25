@@ -13,7 +13,9 @@ Lastly, the Integrated gradients method is used to extract feature importances (
 * Some functions taken from [Neural Network DNA demo](https://github.com/const-ae/Neural_Network_DNA_Demo)
 * Feature importances estimated using [Integrated Gradients method](https://arxiv.org/abs/1703.01365)
 
-## Output - IG attribution of positions in one sequence
+## Model performance and example output - IG attribution of positions in one sequence
+
+![alt text](./example_output/ROC_curve.png)
 
 ![alt text](./example_output/example_output.png)
 
